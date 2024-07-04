@@ -1,0 +1,85 @@
+body{
+
+}
+
+header{
+    height: 100px;
+    width: 100%;
+    left: 0;
+    border-bottom: black 1px solid ;
+    display: fixed;
+}
+
+.left-icon{
+    color: black;
+    width: 50px;
+    margin-right: 10px;
+    vertical-align: top;
+}
+
+.right-icon{
+    color: black;
+    width: 50px;
+    margin-left: 10px;
+    float: right;
+}
+
+.logo{
+    width: 200px;
+    margin-left: 30%;
+    vertical-align: bottom;
+}
+header p{
+    display: inline-block;
+    font-family: monospace;
+    font-size: 30px;
+}
+
+section img{
+    width: 350px;
+}
+
+input{
+    width: 30%;
+    align-items: center;
+}
+
+#first-Line div{
+    margin: auto;
+    width: 380px;
+    display: inline-block;
+}
+
+#first-Line div p{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+#first-Line div p a{
+    text-decoration: none;
+}
+
+#span1{
+    color: red;
+    margin-right: 10px;
+}
+
+#span2{
+    color: grey;
+}
+
+#footer {
+    margin-top: 20px;
+    margin-left: 25%;
+    width: 50%;
+}
+
+footer select{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(0, 0, 94);
+    width: 100%;
+    border: none;
+    border-bottom: 1px grey solid;
+}

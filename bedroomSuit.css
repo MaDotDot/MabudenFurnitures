@@ -1,0 +1,96 @@
+body{
+    margin: auto;
+}
+
+header{
+    background-color: rgb(63, 63, 63);
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    border-bottom:solid 2px #ffa500;
+}
+
+h1{
+    color:#ffa500;
+    font-size: 50px;
+    text-align: center;
+
+}
+
+.fullBedroomImg{
+    width: 100%;
+}
+
+.chestImg{
+    width: 100%;
+    margin: auto;
+}
+
+.sizeImg{
+    width: 100%;
+    margin: auto;
+}
+
+.bed{
+    width: 100%;
+}
+.kingImg{
+    width: 100%;
+}
+
+p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+button{
+    align-items: center;
+    display: grid;
+    margin: auto;
+    width: 100px;
+    padding: 10px;
+    background-color: rgba(128, 128, 128, 0);
+    border-color: #ffa500;
+    border-radius: 20px;
+    width: 100px;
+    transition: 0.5s;
+    transition-timing-function: linear;
+    transition-delay: ;
+    transition-property: width;
+    text-decoration: none;
+    color: grey;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+button a{
+    text-decoration: none;
+    color: grey;
+    font-weight: bold;
+}
+
+button:hover{
+    background-color: #ffa500;
+    width: 150px;
+    color: white;
+}
+
+footer{
+    background-color: grey;
+    bottom: 0%;
+    left: 0;
+    right: 0;
+    height: 40px;
+}
+
+footer p{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 10px;
+    color: white;
+}
